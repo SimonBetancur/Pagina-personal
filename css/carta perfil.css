@@ -1,11 +1,10 @@
 .carta-perfil{
-    background-color: blanchedalmond;
 
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
 
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     margin-left: 20%;
 
     border-top-left-radius: 30px;
@@ -24,24 +23,26 @@
 .texto{
     display: grid;
     grid-template-rows: 30% 40% 30%;
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply;
+    background-color: rgb(44, 62, 80 );
+    opacity: 0.9;
 }
 
 .titulo{
     text-align: center;
     padding: 8%;
-
+    font-size: 20px;
 }
 
 .descripcion{
     text-align: center;
-
+    font-size: 18px;
+    margin: 5%;
 }
 
 .contacto{
     text-align: center;
 }
+
 .icono-contacto{
 justify-content: center;
 display: inline-block;

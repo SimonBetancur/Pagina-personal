@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Pagina personal</title>
 </head>
 
 <!--Links a documentos de trabajo-->
 <link rel="stylesheet" href="./css/carta perfil.css">
 <link rel="stylesheet" href="./css/carta proyectos.css">
 <link rel="stylesheet" href="./css/carta portafolio.css">
+<script src="./js/botones-perfil"></script>
 
 <!--Links a paginas de diseño-->
 
@@ -33,28 +34,28 @@
 
             <div class="texto">
 
-                <section class="titulo">
-                    <h2>Simón Betancur Barrera</h2>
+                <section class="titulo" style="color: aliceblue;">
+                    <h1>Simón Betancur Barrera</h1>
                 </section>
 
-                <article class="descripcion">
+                <article class="descripcion" style="color: aliceblue;">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, impedit.</p>
                 </article>
 
-                <footer class="contacto">
+                <footer class="contacto"style="color: aliceblue;">
                     
-                    <a href="./" class="icono-contacto">
+                    <a href="https://github.com/SimonBetancur" class="icono-contacto">
                         <i class='bx bxl-github'></i>
                     </a>
 
-                    <a href="./" class="icono-contacto">
+                    <a onclick="funcioncorreo()" class="icono-contacto" >
                         <i class='bx bx-mail-send' ></i>
                     </a>
 
-                    <a href="./" class="icono-contacto">
+                    <a onclick="funciontelefono()" class="icono-contacto" >
                         <i class='bx bxs-phone' ></i>
                     </a>
-
+    
                 </footer>
 
             </div>
@@ -68,5 +69,7 @@
     <div class="carta-portafolio">
 
     </div>
+
+    <script src="js/botones-perfil.js"></script>
 </body>
 </html>
