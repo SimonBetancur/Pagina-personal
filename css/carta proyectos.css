@@ -1,0 +1,54 @@
+.carta-proyectos{
+
+    display: grid;
+    grid-template-rows: 200px 550px;
+
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 20%;
+
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    
+    background-color: rgb(44, 62, 80 );
+    opacity: 0.9;
+}
+
+.titulo-proyectos{
+    text-align: center;
+    padding-top : 4%;
+    background-color: rgb(27, 38, 49);
+    border-top-right-radius: 30px;
+}
+
+.contenedor-proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyecto{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.imagen-proyecto{
+    max-height: 100px;
+    align-items: center;
+    padding-left: 130px;
+    padding-top: 100px;
+}
+
+.texto-proyecto{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.nombre-proyecto{
+
+}
+
+.descripcion-proyecto{
+
+}

@@ -1,7 +1,7 @@
 .carta-perfil{
 
     display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
+    grid-template-columns: 500px 1.2fr;
 
     margin-top: 2%;
     margin-bottom: 3%;
@@ -16,37 +16,38 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 
-    width: 100%;
+    height: 750px;
 
 }
 
-.texto{
+.texto-perfil{
     display: grid;
     grid-template-rows: 30% 40% 30%;
     background-color: rgb(44, 62, 80 );
     opacity: 0.9;
 }
 
-.titulo{
+.titulo-perfil{
     text-align: center;
     padding: 8%;
     font-size: 20px;
 }
 
-.descripcion{
+.descripcion-perfil{
     text-align: center;
     font-size: 18px;
     margin: 5%;
 }
 
-.contacto{
+.contacto-perfil{
     text-align: center;
 }
 
-.icono-contacto{
+.icono-contacto-perfil{
 justify-content: center;
 display: inline-block;
 margin-left: 20px;
+margin-top: 100px;
 width: 60px;
 height: 60px;
 border: 1px solid #ffff;
@@ -54,4 +55,5 @@ border-radius: 50%;
 text-align: center;
 color: #ffff;
 font-size: 30px;
-line-height: 60px;}
+line-height: 60px;
+}
