@@ -23,6 +23,7 @@
 
 .texto-perfil{
     display: grid;
+    height: 750px;
     grid-template-rows: 30% 40% 30%;
     background-color: rgb(44, 62, 80 );
     opacity: 0.9;
