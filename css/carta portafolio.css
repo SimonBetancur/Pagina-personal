@@ -1,0 +1,64 @@
+.carta-portafolio{
+
+    display: grid;
+    grid-template-columns: 500px 1.2fr;
+
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.foto-curriculum{
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    height: 750px;
+
+}
+
+.texto-portafolio{
+
+    height: 750px;
+    display: grid;
+    grid-template-rows: 30% 40% 30%;
+    background-color: rgb(44, 62, 80 );
+    opacity: 0.9;
+}
+
+.titulo-portafolio{
+    text-align: center;
+    padding: 8%;
+    font-size: 20px;
+}
+
+.descripcion-portafolio{
+    text-align: center;
+    font-size: 18px;
+    margin: 5%;
+}
+
+.contenedor-descarga-portafolio{
+    justify-content: right;
+    text-align: right;
+}
+
+.icono-descarga-portafolio{
+    justify-content: center;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 8%;
+    margin-right: 12.5%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    line-height: 60px;
+    }
