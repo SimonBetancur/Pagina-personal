@@ -1,0 +1,21 @@
+@media (max-width:860px){
+
+    .contenedor-principal{
+        width: 100%;
+     
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+
+        justify-content: center;
+        
+    }
+}
+
+
+@media(max-width:747px){
+    
+    .body{
+        background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    }
+}

@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="./css/carta perfil.css">
 <link rel="stylesheet" href="./css/carta proyectos.css">
 <link rel="stylesheet" href="./css/carta portafolio.css">
+<link rel="stylesheet" href="./css/fondos y contenedores principales.css">
 <script src="./js/botones-perfil"></script>
 
 <!--Links a paginas de diseño-->
@@ -18,16 +19,24 @@
 <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
 <style>
-    body{
-        margin: 0%;
-        background-image:url(./imagenes/fondo\ de\ pantalla.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+
+    @media(min-width:747px){
+
+        body{
+            margin: 0%;
+            background-image:url(./imagenes/fondo\ de\ pantalla.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
     }
 </style>
 
-<body>
+<body class="body">
+
+    <div class="contenedor-principal">
+
     <div class="carta-perfil">
 
             <img src="./imagenes/perfil.jpg" alt="" class="foto-perfil">
@@ -145,6 +154,8 @@
             </div>
 
     </div>
+
+</div>
 
 </body>
 </html>

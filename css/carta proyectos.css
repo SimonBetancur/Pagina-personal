@@ -1,3 +1,5 @@
+@media (min-width:860px){
+
 .carta-proyectos{
 
     display: grid;
@@ -51,4 +53,130 @@
 }
 
 .descripcion-proyecto{
+}
+
+}
+
+@media (max-width:860px){
+
+    .carta-proyectos{
+
+        width: 700px;
+
+        display: grid;
+        grid-template-rows: 200px 550px;
+    
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-left: 5%;
+        margin-right: 10%;
+    
+        border-radius: 30px;
+        
+        background-color: rgb(44, 62, 80 );
+        opacity: 0.9;
+    
+    }
+    
+    .titulo-proyectos{
+        text-align: center;
+        padding-top : 4%;
+        background-color: rgb(27, 38, 49);
+        border-top-right-radius: 30px;
+        font-size: 21px;
+        border-top-left-radius: 30px;
+    }
+    
+    .contenedor-proyectos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .proyecto{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .imagen-proyecto{
+        max-height: 100px;
+        border-radius: 10px;
+    }
+    
+    .texto-proyecto{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    
+    .nombre-proyecto{
+    }
+    
+    .descripcion-proyecto{
+    }
+
+}
+
+@media (max-width:360px){
+
+    .carta-proyectos{
+
+        width: 700px;
+
+        display: grid;
+        grid-template-rows: 200px 550px;
+    
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-left: 27%;
+    
+        border-radius: 30px;
+        
+        background-color: rgb(44, 62, 80 );
+        opacity: 0.9;
+
+        overflow: scroll;
+    
+    }
+    
+    .titulo-proyectos{
+        text-align: center;
+        padding-top : 4%;
+        background-color: rgb(27, 38, 49);
+        border-top-right-radius: 30px;
+        font-size: 21px;
+        border-top-left-radius: 30px;
+
+    }
+    
+    .contenedor-proyectos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .proyecto{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .imagen-proyecto{
+        max-height: 100px;
+        border-radius: 10px;
+    }
+    
+    .texto-proyecto{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    
+    .nombre-proyecto{
+    }
+    
+    .descripcion-proyecto{
+    }
+
 }
