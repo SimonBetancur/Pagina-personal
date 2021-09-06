@@ -1,0 +1,79 @@
+/* 
+
+Los tamaños más comunes en webs responsive
+
+Algunas de los tamaños web más comunes son las siguientes:
+
+Móviles pequeños: 360×640 píxeles
+Móviles medianos: 375×667 píxeles
+Móviles grandes: 414×736 píxeles
+Tablets: 768×1024 píxeles
+Ordenadores portátiles: 1366×768 píxeles
+Escritorios: 1440×900 píxeles
+Escritorios grandes: 1920×1080 píxeles
+
+*/
+
+/* CARTA PERFIL */
+
+    /* ( 768PX / ... ) */
+
+    @media (min-width:768px){
+
+        .carta-perfil{
+            margin-left: 20%;
+            border-top-left-radius: 1.5vw;
+            border-bottom-left-radius: 1.5vw;
+       }
+
+       .foto-perfil{
+           border-top-left-radius: 1.5vw;
+           border-bottom-left-radius: 1.5vw;
+       }
+
+    }
+
+    /* ( 600PX / 768PX ) */
+
+    @media only screen and (max-width: 768px) and (min-width: 600px) {
+
+        .carta-perfil{
+            margin-left: 10%;
+            margin-right: 10%;
+
+           border-radius: 1.5vw;
+     }
+
+      .foto-perfil{
+           border-top-left-radius: 1.5vw;
+          border-bottom-left-radius: 1.5vw;
+      }
+
+       .texto-perfil{
+           border-top-right-radius: 1.5vw;
+           border-bottom-right-radius: 1.5vw;
+      }
+
+    }
+
+
+/* CARTA PROYECTOS */
+
+    /* ( 768PX / ... ) */
+
+    @media (min-width:768px){
+
+        .carta-proyectos{
+            margin-right: 20%;
+            border-top-right-radius: 1.5vw;
+            border-bottom-right-radius: 1.5vw;
+        }
+
+    }
+
+
+
+
+
+
+

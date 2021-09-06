@@ -5,12 +5,7 @@
 
     margin-top: 2%;
     margin-bottom: 3%;
-    margin-right: 20%;
 
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-
-    
     background-color: rgb(44, 62, 80 );
     opacity: 0.9;
 
@@ -26,7 +21,7 @@
 
 .contenedor-proyectos{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
 .proyecto{
