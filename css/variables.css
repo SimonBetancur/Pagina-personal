@@ -31,11 +31,18 @@ Escritorios grandes: 1920×1080 píxeles
            border-bottom-left-radius: 1.5vw;
        }
 
+       .icono-contacto-perfil{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 60px;
+        }
+
     }
 
-    /* ( 600PX / 768PX ) */
+    /* ( 600PX / 767PX ) */
 
-    @media only screen and (max-width: 768px) and (min-width: 600px) {
+    @media only screen and (max-width: 767px) and (min-width: 600px) {
 
         .carta-perfil{
             margin-left: 10%;
@@ -54,8 +61,26 @@ Escritorios grandes: 1920×1080 píxeles
            border-bottom-right-radius: 1.5vw;
       }
 
+      .icono-contacto-perfil{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 60px;
+        }
+
     }
 
+    @media (max-width:340px){
+
+        .icono-contacto-perfil{
+            width: 35px;
+            height: 35px;
+            font-size: 25px;
+            line-height: 40px;
+            }
+
+    }
+        
 
 /* CARTA PROYECTOS */
 
@@ -69,9 +94,88 @@ Escritorios grandes: 1920×1080 píxeles
             border-bottom-right-radius: 1.5vw;
         }
 
+        .carta-proyectos{
+            border-top-right-radius: 1.5vw;
+            border-bottom-right-radius: 1.5vw;
+        }
+
+        .titulo-proyectos{
+            border-top-right-radius: 1.5vw;
+        }
+
+        .contenedor-proyectos{
+            border-bottom-right-radius: 1.5vw;
+        }
+
     }
 
+    /* ( 600PX / 767PX ) */
 
+    @media only screen and (max-width: 767px) and (min-width: 600px) {
+
+        .carta-proyectos{
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 1.5vw;
+        }
+
+        .titulo-proyectos{
+            border-top-left-radius: 1.5vw;
+        }
+
+       .texto-perfil{
+           border-top-right-radius: 1.5vw;
+           border-bottom-right-radius: 1.5vw;
+        }
+
+        .contenedor-proyectos{
+            border-bottom-right-radius: 1.5vw;
+            border-bottom-left-radius: 1.5vw;
+        }   
+
+    }
+
+/* CARTA PORTAFOLIO */
+
+    /* ( 768PX / ... ) */
+
+    @media (min-width:768px){
+
+        .carta-portafolio{
+            margin-left: 20%;
+            border-top-left-radius: 1.5vw;
+            border-bottom-left-radius: 1.5vw;
+       }
+
+       .foto-curriculum{
+           border-top-left-radius: 1.5vw;
+           border-bottom-left-radius: 1.5vw;
+       }
+
+    }
+
+    /* ( 600PX / 767PX ) */
+
+    @media only screen and (max-width: 767px) and (min-width: 600px) {
+
+        .carta-portafolio{
+            margin-left: 10%;
+            margin-right: 10%;
+
+           border-radius: 1.5vw;
+     }
+
+      .foto-curriculum{
+           border-top-left-radius: 1.5vw;
+          border-bottom-left-radius: 1.5vw;
+      }
+
+       .texto-portafolio{
+           border-top-right-radius: 1.5vw;
+           border-bottom-right-radius: 1.5vw;
+      }
+
+    }
 
 
 
