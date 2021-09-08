@@ -31,18 +31,11 @@ Escritorios grandes: 1920×1080 píxeles
            border-bottom-left-radius: 1.5vw;
        }
 
-       .icono-contacto-perfil{
-        width: 60px;
-        height: 60px;
-        font-size: 30px;
-        line-height: 60px;
-        }
-
     }
 
     /* ( 600PX / 767PX ) */
 
-    @media only screen and (max-width: 767px) and (min-width: 600px) {
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
 
         .carta-perfil{
             margin-left: 10%;
@@ -61,16 +54,23 @@ Escritorios grandes: 1920×1080 píxeles
            border-bottom-right-radius: 1.5vw;
       }
 
-      .icono-contacto-perfil{
-        width: 60px;
-        height: 60px;
-        font-size: 30px;
-        line-height: 60px;
-        }
-
     }
 
-    @media (max-width:340px){
+    /* ( 421PX / 599PX ) */
+
+    @media (min-width:421px){
+
+        .icono-contacto-perfil{
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+            line-height: 60px;
+            }
+    }
+
+    /* ( ... / 420PX ) */
+
+    @media (max-width:420px){
 
         .icono-contacto-perfil{
             width: 35px;
